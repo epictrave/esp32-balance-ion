@@ -141,7 +141,6 @@ void balance_ion_add_message(time_t _time) {
     json_object_set_string(root_object, "messageType", "ion");
     json_object_set_string(root_object, "time", format_time);
     json_object_set_string(root_object, "sensorID", number);
-    json_object_set_string(root_object, "messageType", "ion");
     json_object_set_number(root_object, "mode", mode);
     if (mode == CALI_MODE) {
       json_object_set_number(root_object, "raw", balance_ion_get_cali_raw(i));
