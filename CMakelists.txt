@@ -1,0 +1,13 @@
+set(COMPONENT_SRCDIRS "."
+"deps/parson"
+"deps/queue_message"
+)
+
+set(COMPONENT_ADD_INCLUDEDIRS "." 
+"deps"
+"deps/parson"
+"deps/queue_message"
+)
+
+
+register_component()

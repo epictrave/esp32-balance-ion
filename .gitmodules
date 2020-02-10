@@ -1,0 +1,6 @@
+[submodule "deps/esp32-queue-message"]
+	path = deps/esp32-queue-message
+	url = https://github.com/epictrave/esp32-queue-message.git
+[submodule "deps/parson"]
+	path = deps/parson
+	url = https://github.com/kgabis/parson.git
